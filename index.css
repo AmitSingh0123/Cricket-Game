@@ -1,0 +1,153 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-color:#343a40;
+  --text-color:#f8f9fa ;
+}
+body{
+  background-color: #343a40;
+}
+html{
+  font-size: 62.5%;
+}
+ul {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+/* header */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 7rem;
+  background-color: #343a40;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  border-bottom: .5px solid #f8f9fa;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.5rem;
+}
+
+.navbar ul li {
+  font-size: 2.5rem;
+  color: #f8f9fa;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform:uppercase ;
+}
+.row {
+  color: #f8f9fa;
+}
+
+
+main{
+  max-width: 100rem;
+  margin: 8rem auto;
+  text-align: center;
+  color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section h1{
+  margin-top: 3rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+  gap: 2rem;
+}
+
+.left-side{
+  width: 30%;
+  border: 2px solid mediumspringgreen;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.score-title{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #f8f9fa;
+}
+.score-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  width: 100;
+  gap: 2rem;
+}
+
+.score-container p{
+  font-size: 2rem;
+  width: 100%;
+}
+
+.right-side{
+  width: 70%;
+  border: 2px solid mediumspringgreen;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.game-container{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game-container{
+  margin-top: 4rem;
+}
+
+button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.reset-btn{
+  font-size: 2.5rem;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  color: #343a40;
+  text-transform: uppercase;
+  background-color:mediumspringgreen;
+  cursor: pointer;
+}
+.btn {
+  height: 20rem;
+  width: 20rem;
+  background: transparent;
+  background-position: center;
+
+}
+
+.btn  img {
+  height: 100%;
+  width: 100%;
+}

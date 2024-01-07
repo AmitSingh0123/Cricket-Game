@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=100, initial-scale=1.0" />
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div><i class="bx bx-menu"></i></div>
+      <nav class="navbar">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Game rule</li>
+          <li><i class="bx bx-adjust"></i></li>
+        </ul>
+      </nav>
+      <hr class="row" />
+    </header>
+    <main>
+      <section><h1>Cricket game</h1></section>
+      <section class="container">
+        <div class="left-side">
+          <div class="score-title">score Board</div>
+          <hr class="row"/>
+          <div class="score-container">
+            <p id="user-move"></p>
+            <p id="computer-move"></p>
+            <p id="result"></p>
+            <p id="score"></p>
+            
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="score-title"><p>chose any one opction</p></div>
+          <div class="game-container">
+
+          <button class="btn" id="bat" onclick=" bat()"><img src="/projects/Bat Boll Game/new images/bat-img.png" alt=""></button>
+
+          <button class="btn" id="ball" onclick="ball();"><img src="/projects/Bat Boll Game/new images/ball-img.png" alt=""></button>
+
+          <button class="btn" id="stump" onclick="stump()"><img src="/projects/Bat Boll Game/new images/stump-img.png" alt=""></button>
+        </div>
+      </div>
+      </section>
+      <section>
+        <div>
+          <button class="reset-btn" onclick="resetBtn()"> Reset  your  game</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- <div class="container">
+      <h1>Bat Ball Stump Game</h1>
+      <button class="btn" id="bat" onclick=" bat()">Bat</button>
+
+      <button class="btn" id="ball" onclick="ball();">Ball</button>
+
+      <button class="btn" id="stump" onclick="stump()">Stump</button>
+      <h1 id="display"></h1>
+    </div>
+    <div>
+      <button>Reset</button>
+    </div> -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
